@@ -1,0 +1,9 @@
+# exersice 1
+# developer: Loseva Ekaterina
+#
+
+sum_clock = int(input('Введите значение общей стоимости часов:'))
+sold_slv = 96
+sold_gld = sold_slv / 16
+price_slv = 48
+print('Стоимость золотых часов:', int((sum_clock - (sold_slv * price_slv)) / sold_gld))
